@@ -51,4 +51,4 @@ python cli.py decrypt --data "ENCRYPTED_DATA_HERE" --private-key private_key.pem
 Replace ENCRYPTED_DATA_HERE with the encrypted data obtained from the encryption step, and private_key.pem with the path to your private key file.
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the GNU License.
