@@ -12,6 +12,11 @@ This project demonstrates how to perform encryption and decryption of data using
   ```bash
   pip install pycryptodome
   ```
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Features
 
