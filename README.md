@@ -32,7 +32,7 @@ pip install -r requirements.txt
 3. Generate RSA key pairs (public and private keys) using the `generate_key_pair.py` script.
 
    ```bash
-   python generate_key_pair.py
+   python encrypt_decrypty.py
 
 ## Usage
 
@@ -54,7 +54,7 @@ To encrypt data, follow these steps:
 3. Use the CLI tool as follows to encrypt data:
 
 ```bash
-python main.py encrypt --data "Your secret message here" --public-key public_key.pem
+python cli.py encrypt --data "Your secret message here" --public-key public_key.pem
 ```
 4. The tool will display the encrypted data.
 
@@ -66,7 +66,7 @@ To decrypt data, follow these steps:
 3. Use the CLI tool as follows to decrypt data:
    
 ```bash
-python main.py decrypt --data "Encrypted data here" --private-key private_key.pem
+python cli.py decrypt --data "Encrypted data here" --private-key private_key.pem
 ```
 4. The tool will display the decrypted data.
 
@@ -77,7 +77,7 @@ Encrypting and Decrypting Example:
 Encrypt data:
 
 ```bash
-python main.py encrypt --data "Hello, this is a test!" --public-key public_key.pem
+python cli.py encrypt --data "Hello, this is a test!" --public-key public_key.pem
 ```
 Output:
 
@@ -86,7 +86,7 @@ Output:
 Decrypt data:
 
 ```bash
-python main.py decrypt --data "Encrypted data here" --private-key private_key.pem
+python cli.py decrypt --data "Encrypted data here" --private-key private_key.pem
 ```
 Output:
 
