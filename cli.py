@@ -28,6 +28,5 @@ def main():
         decrypted_data = encrypt_decrypt.decrypt_data(private_key, args.data)
         print("Decrypted Data:", decrypted_data)
 
-
 if __name__ == "__main__":
     main()
