@@ -1,4 +1,4 @@
-# CLI Based Encryption and Decryption Tool
+# Simple CLI Based Encryption and Decryption software
 
 This command-line tool allows you to encrypt and decrypt data using RSA encryption.
 
